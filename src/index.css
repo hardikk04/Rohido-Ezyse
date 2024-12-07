@@ -24,11 +24,11 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5vw;
+  font-size: 4vw;
 }
 
 h3 {
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 h4 {
@@ -52,4 +52,12 @@ span {
 i {
   font-size: 1vw;
   line-height: 1;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.contact {
+  background: linear-gradient(180deg, #f5fcff 5.51%, #ffffff 100%);
 }
