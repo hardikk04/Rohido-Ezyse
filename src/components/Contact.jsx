@@ -1,12 +1,9 @@
-import Nav from "./Nav";
-import Footer from "./Footer";
 import Button from "./Button";
 import ContactDets from "./ContactDets";
 
 const Contact = () => {
   return (
     <>
-      <Nav />
       <section className="contact w-full h-screen px-[2vw] pt-[6vw] pb-[2vw] flex justify-between">
         <div className="contact-left bg-white box-shadow p-[2vw] rounded-[1.5vw] h-full w-[48%]">
           <h2 className="leading-none">Get in Touch</h2>
@@ -66,7 +63,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 };

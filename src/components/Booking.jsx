@@ -1,11 +1,9 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
-import Nav from "./Nav";
 import Button from "./Button";
 import FeaturesCard from "./FeaturesCard";
 import WorkCard from "./WorkCard";
-import Footer from "./Footer";
 
 const Booking = () => {
   useGSAP(() => {
@@ -48,7 +46,6 @@ const Booking = () => {
 
   return (
     <>
-      <Nav />
       <section className="px-[2vw] py-[8vw] pb-[6vw] text-center flex justify-center">
         <div className="home-hero flex flex-col items-center">
           <div className="w-[90%] leading-[1.4]">
@@ -195,7 +192,6 @@ const Booking = () => {
           </div>
         </div>
       </section>
-      <Footer></Footer>
     </>
   );
 };

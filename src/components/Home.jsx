@@ -4,11 +4,9 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-import Nav from "./Nav";
 import Button from "./Button";
 import OfferCard from "./OfferCard";
 import AboutCard from "./AboutCard";
-import Footer from "./Footer";
 
 const Home = () => {
   useGSAP(() => {
@@ -51,7 +49,6 @@ const Home = () => {
 
   return (
     <>
-      <Nav />
       <section className="px-[2vw] py-[8vw] text-center flex justify-center">
         <div className="home-hero flex flex-col items-center">
           <div>
@@ -200,7 +197,6 @@ const Home = () => {
           <img className="object-contain" src="/images/Logo-2.png" alt="" />
         </div>
       </section>
-      <Footer />
     </>
   );
 };
